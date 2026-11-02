@@ -1,0 +1,9 @@
+node_modules
+dist
+
+# Cada quien genera lo suyo en la sesion:
+idl.json          # se descarga de Solana Playground
+clients/          # lo genera codama a partir del idl
+
+# compilado
+*.tsbuildinfo

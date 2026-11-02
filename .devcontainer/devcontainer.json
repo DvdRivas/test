@@ -1,0 +1,12 @@
+{
+  "name": "Taller Frontend Solana",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "postCreateCommand": "npm install",
+  "forwardPorts": [5173],
+  "portsAttributes": {
+    "5173": {
+      "label": "Vite",
+      "onAutoForward": "notify"
+    }
+  }
+}
